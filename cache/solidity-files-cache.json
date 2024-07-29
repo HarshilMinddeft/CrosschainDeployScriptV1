@@ -1,0 +1,1278 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\token.sol": {
+      "lastModificationDate": 1706790787621,
+      "contentHash": "757bec4af9ea9b1cb7028737529c6a05",
+      "sourceName": "contracts/token.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "hardhat/console.sol"
+      ],
+      "versionPragmas": [
+        ">=0.5.0 <0.9.0"
+      ],
+      "artifacts": [
+        "token"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1706763996501,
+      "contentHash": "896f68942c3a20e9ae3c3c5bfd3add54",
+      "sourceName": "hardhat/console.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <0.9.0"
+      ],
+      "artifacts": [
+        "console"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\AxelarForecallable.sol": {
+      "lastModificationDate": 1720694473597,
+      "contentHash": "31bbedfd1320b4d577d264f4f0cf4b9c",
+      "sourceName": "contracts/AxelarForecallable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAxelarGateway.sol",
+        "./IERC20.sol",
+        "./IAxelarForecallable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "AxelarForecallable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IERC20.sol": {
+      "lastModificationDate": 1720694604389,
+      "contentHash": "e2c5098f8ef8a329a7ab95335d1eb934",
+      "sourceName": "contracts/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IAxelarGateway.sol": {
+      "lastModificationDate": 1720694583097,
+      "contentHash": "e5d63b1bcaeb81c0bf0632dcbb5f4bfc",
+      "sourceName": "contracts/IAxelarGateway.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAxelarGateway"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IAxelarForecallable.sol": {
+      "lastModificationDate": 1720694520458,
+      "contentHash": "496a30c076261ca1d79f59b94834e90d",
+      "sourceName": "contracts/IAxelarForecallable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAxelarExecutable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAxelarForecallable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IAxelarExecutable.sol": {
+      "lastModificationDate": 1720694498373,
+      "contentHash": "79c1d2ce837ec848489f90cec683fdc1",
+      "sourceName": "contracts/IAxelarExecutable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IAxelarGateway.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAxelarExecutable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\squidRouter.sol": {
+      "lastModificationDate": 1721621928211,
+      "contentHash": "fa8c3a84ed50c4a01a1804563fbc0a65",
+      "sourceName": "contracts/squidRouter.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ISquidRouter.sol",
+        "./ISquidMulticall.sol",
+        "./AxelarForecallable.sol",
+        "@axelar-network/axelar-cgp-solidity/contracts/interfaces/IAxelarGasService.sol",
+        "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGateway.sol",
+        "./RoledPausable.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "SquidRouter"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\ISquidMulticall.sol": {
+      "lastModificationDate": 1720694685185,
+      "contentHash": "2335222e2d75b72e20047621b33cd189",
+      "sourceName": "contracts/ISquidMulticall.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ISquidMulticall"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\ISquidRouter.sol": {
+      "lastModificationDate": 1720694709966,
+      "contentHash": "de5f043d761a97bc1d02f4e918be1f14",
+      "sourceName": "contracts/ISquidRouter.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ISquidMulticall.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "ISquidRouter"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\RoledPausable.sol": {
+      "lastModificationDate": 1720694726415,
+      "contentHash": "eb5ca578c02830cfbcb2ac976e75a30b",
+      "sourceName": "contracts/RoledPausable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IRoledPausable.sol",
+        "./StorageSlot.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "RoledPausable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-gmp-sdk-solidity\\contracts\\interfaces\\IAxelarGateway.sol": {
+      "lastModificationDate": 1720778434980,
+      "contentHash": "3da2d37fba8aac11a55c3e5a2dfb8390",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGateway.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IGovernable.sol",
+        "./IImplementation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAxelarGateway"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-cgp-solidity\\contracts\\interfaces\\IAxelarGasService.sol": {
+      "lastModificationDate": 1720687245960,
+      "contentHash": "6858084cc6ac2e4f1991ffa508fe14a1",
+      "sourceName": "@axelar-network/axelar-cgp-solidity/contracts/interfaces/IAxelarGasService.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGasService.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IRoledPausable.sol": {
+      "lastModificationDate": 1720694655938,
+      "contentHash": "819e1070c62515728147017b614bcacf",
+      "sourceName": "contracts/IRoledPausable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "IRoledPausable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\StorageSlot.sol": {
+      "lastModificationDate": 1720694757065,
+      "contentHash": "e84c63242ae76540b8c1e83ec3265bbf",
+      "sourceName": "contracts/StorageSlot.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.9"
+      ],
+      "artifacts": [
+        "StorageSlot"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-gmp-sdk-solidity\\contracts\\interfaces\\IGovernable.sol": {
+      "lastModificationDate": 1720778435033,
+      "contentHash": "cff1f78967ee150487afdfcc5689c7c4",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IGovernable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IGovernable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-gmp-sdk-solidity\\contracts\\interfaces\\IImplementation.sol": {
+      "lastModificationDate": 1720778435035,
+      "contentHash": "b30a7eb7b4a4d39878a8ad7d93d33f37",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IImplementation.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IContractIdentifier.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IImplementation"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-gmp-sdk-solidity\\contracts\\interfaces\\IContractIdentifier.sol": {
+      "lastModificationDate": 1720778435019,
+      "contentHash": "35cfec878fe72edd2f3d752aab6f56b9",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IContractIdentifier.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IContractIdentifier"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-gmp-sdk-solidity\\contracts\\interfaces\\IAxelarGasService.sol": {
+      "lastModificationDate": 1720778434975,
+      "contentHash": "711bae34afd4c3210fd7c250a0459c1b",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGasService.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/GasEstimationTypes.sol",
+        "./IInterchainGasEstimation.sol",
+        "./IUpgradable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAxelarGasService"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-gmp-sdk-solidity\\contracts\\interfaces\\IUpgradable.sol": {
+      "lastModificationDate": 1720778435120,
+      "contentHash": "f20af70b01876dd45652bbb357ef1264",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IUpgradable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IOwnable.sol",
+        "./IImplementation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IUpgradable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-gmp-sdk-solidity\\contracts\\interfaces\\IInterchainGasEstimation.sol": {
+      "lastModificationDate": 1720778435045,
+      "contentHash": "86a4d4a3535fe9f38a3a4908bb2abae4",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IInterchainGasEstimation.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/GasEstimationTypes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IInterchainGasEstimation"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-gmp-sdk-solidity\\contracts\\types\\GasEstimationTypes.sol": {
+      "lastModificationDate": 1720778434949,
+      "contentHash": "e5c2978c99d4414a0413c2cb59779bbb",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/types/GasEstimationTypes.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@axelar-network\\axelar-gmp-sdk-solidity\\contracts\\interfaces\\IOwnable.sol": {
+      "lastModificationDate": 1720778435099,
+      "contentHash": "079a01f47174cf9ed191f6cb21a74a0f",
+      "sourceName": "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IAxelarGasService.sol": {
+      "lastModificationDate": 1720694195722,
+      "contentHash": "7398b016d3858f120eeecdbc6d6fa713",
+      "sourceName": "contracts/IAxelarGasService.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IUpgradable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAxelarGasService"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\SquidMulticall.sol": {
+      "lastModificationDate": 1720779488242,
+      "contentHash": "40cd8b3f6f3b5ad6e7bb589d3917480a",
+      "sourceName": "contracts/SquidMulticall.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ISquidMulticall.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+        "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol"
+      ],
+      "versionPragmas": [
+        "0.8.19"
+      ],
+      "artifacts": [
+        "SquidMulticall"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@openzeppelin\\contracts\\token\\ERC1155\\IERC1155Receiver.sol": {
+      "lastModificationDate": 1720779697869,
+      "contentHash": "fe5cb08042e830af2ab46ccf9e96054d",
+      "sourceName": "@openzeppelin/contracts/token/ERC1155/IERC1155Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "IERC1155Receiver"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\IERC721Receiver.sol": {
+      "lastModificationDate": 1720779671485,
+      "contentHash": "78a2cd1c2bbb32e08aa23112395606ae",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/IERC721Receiver.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "IERC721Receiver"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@openzeppelin\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1720779788736,
+      "contentHash": "02ed6baec117fa295775c7c9e2884be1",
+      "sourceName": "@openzeppelin/contracts/utils/introspection/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "IERC165"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IContractIdentifier.sol": {
+      "lastModificationDate": 1720694295016,
+      "contentHash": "dfe6d81c701c969d0052a1f6197e785b",
+      "sourceName": "contracts/IContractIdentifier.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IContractIdentifier"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IImplementation.sol": {
+      "lastModificationDate": 1720694352685,
+      "contentHash": "fe6bf12107e485fad968700989815cd5",
+      "sourceName": "contracts/IImplementation.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IContractIdentifier.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IImplementation"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IUpgradable.sol": {
+      "lastModificationDate": 1720694399977,
+      "contentHash": "f99694e03020034b4d16d76a02b02851",
+      "sourceName": "contracts/IUpgradable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IOwnable.sol",
+        "./IImplementation.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IUpgradable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IOwnable.sol": {
+      "lastModificationDate": 1720694378567,
+      "contentHash": "5c4a337bbc9a68689ce68a51598ed39d",
+      "sourceName": "contracts/IOwnable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IOwnable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\contracts\\IGovernable.sol": {
+      "lastModificationDate": 1720694327582,
+      "contentHash": "b32ae0b4e8301c5b01bb1ab411829c2e",
+      "sourceName": "contracts/IGovernable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IGovernable"
+      ]
+    },
+    "C:\\Users\\BAPS\\Desktop\\hardhat-S\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1720779634296,
+      "contentHash": "f3e37731d2664ba209d7611e7240b606",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 100
+          },
+          "viaIR": true,
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    }
+  }
+}
